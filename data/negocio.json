@@ -1,0 +1,82 @@
+{
+  "productos": [
+    {
+      "id": "P01",
+      "nombre": "Semilla de maíz híbrido (1 kg)",
+      "categoria": "Semillas",
+      "precio": 38000,
+      "cultivos": [
+        "maiz"
+      ]
+    },
+    {
+      "id": "P02",
+      "nombre": "Semilla de frijol (1 kg)",
+      "categoria": "Semillas",
+      "precio": 22000,
+      "cultivos": [
+        "frijol"
+      ]
+    },
+    {
+      "id": "P03",
+      "nombre": "Semilla de tomate (sobre 10 g)",
+      "categoria": "Semillas",
+      "precio": 15000,
+      "cultivos": [
+        "tomate"
+      ]
+    },
+    {
+      "id": "P04",
+      "nombre": "Semilla de lechuga (sobre 10 g)",
+      "categoria": "Semillas",
+      "precio": 9000,
+      "cultivos": [
+        "lechuga"
+      ]
+    },
+    {
+      "id": "P05",
+      "nombre": "Cal agrícola (bulto 50 kg)",
+      "categoria": "Fertilizantes y enmiendas",
+      "precio": 28000,
+      "cultivos": []
+    },
+    {
+      "id": "P06",
+      "nombre": "Abono orgánico compost (bulto 40 kg)",
+      "categoria": "Fertilizantes y enmiendas",
+      "precio": 32000,
+      "cultivos": []
+    },
+    {
+      "id": "P07",
+      "nombre": "Azufre elemental (bolsa 25 kg)",
+      "categoria": "Fertilizantes y enmiendas",
+      "precio": 65000,
+      "cultivos": []
+    },
+    {
+      "id": "P08",
+      "nombre": "Kit de riego por goteo (100 m)",
+      "categoria": "Riego",
+      "precio": 185000,
+      "cultivos": []
+    },
+    {
+      "id": "P09",
+      "nombre": "Malla sombra 50 % (4 x 25 m)",
+      "categoria": "Protección de cultivos",
+      "precio": 210000,
+      "cultivos": []
+    },
+    {
+      "id": "P10",
+      "nombre": "Kit de análisis de pH del suelo",
+      "categoria": "Herramientas",
+      "precio": 45000,
+      "cultivos": []
+    }
+  ]
+}

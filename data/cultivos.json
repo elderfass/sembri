@@ -1,0 +1,565 @@
+[
+  {
+    "id": "maiz",
+    "nombre": "Maíz",
+    "categoria": "Cereal",
+    "suelos": {
+      "optimo": [
+        "Franco",
+        "Limoso"
+      ],
+      "tolerable": [
+        "Arcilloso",
+        "Arenoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Cálido",
+        "Templado"
+      ],
+      "tolerable": [
+        "Frío"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Abundante"
+      ]
+    },
+    "ph_min": 5.0,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 4.5,
+    "ph_tolerancia_max": 8.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Siembra en suelos profundos y bien drenados; evita el déficit de agua durante la floración."
+  },
+  {
+    "id": "papa",
+    "nombre": "Papa",
+    "categoria": "Tubérculo",
+    "suelos": {
+      "optimo": [
+        "Franco",
+        "Arenoso"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Frío",
+        "Templado"
+      ],
+      "tolerable": []
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Abundante"
+      ]
+    },
+    "ph_min": 5.0,
+    "ph_max": 6.5,
+    "ph_tolerancia_min": 4.8,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Prefiere suelos sueltos que permitan el desarrollo del tubérculo; evita encharcamientos que favorecen enfermedades."
+  },
+  {
+    "id": "tomate",
+    "nombre": "Tomate",
+    "categoria": "Hortaliza",
+    "suelos": {
+      "optimo": [
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso",
+        "Arenoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado",
+        "Cálido"
+      ],
+      "tolerable": []
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Abundante"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 6.8,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Mantén humedad uniforme para evitar rajaduras del fruto y usa tutores para sostener las plantas."
+  },
+  {
+    "id": "arroz",
+    "nombre": "Arroz",
+    "categoria": "Cereal",
+    "suelos": {
+      "optimo": [
+        "Arcilloso"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Cálido"
+      ],
+      "tolerable": [
+        "Templado"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Abundante"
+      ],
+      "tolerable": [
+        "Moderada"
+      ]
+    },
+    "ph_min": 5.5,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 4.5,
+    "ph_tolerancia_max": 8.0,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Nivela el terreno para controlar la lámina de agua y aprovecha suelos de baja permeabilidad."
+  },
+  {
+    "id": "agave",
+    "nombre": "Agave",
+    "categoria": "Planta suculenta",
+    "suelos": {
+      "optimo": [
+        "Arenoso"
+      ],
+      "tolerable": [
+        "Franco"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Árido"
+      ],
+      "tolerable": [
+        "Cálido",
+        "Templado"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Escasa"
+      ],
+      "tolerable": [
+        "Moderada"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 8.0,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 8.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "El drenaje es crítico: el exceso de humedad en la raíz es su principal causa de pérdida."
+  },
+  {
+    "id": "nopal",
+    "nombre": "Nopal",
+    "categoria": "Cactácea",
+    "suelos": {
+      "optimo": [
+        "Arenoso",
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Árido"
+      ],
+      "tolerable": [
+        "Cálido",
+        "Templado"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Escasa"
+      ],
+      "tolerable": [
+        "Moderada"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 8.0,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 8.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Siembra en suelos bien drenados y evita el encharcamiento; protege las plantas de temperaturas bajo cero, que dañan cladodios y frutos."
+  },
+  {
+    "id": "frijol",
+    "nombre": "Frijol",
+    "categoria": "Leguminosa",
+    "suelos": {
+      "optimo": [
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso",
+        "Arenoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado",
+        "Cálido"
+      ],
+      "tolerable": []
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Escasa"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Evita suelos encharcados y rota con cereales para mantener la fertilidad."
+  },
+  {
+    "id": "cafe",
+    "nombre": "Café",
+    "categoria": "Cultivo perenne",
+    "suelos": {
+      "optimo": [
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso",
+        "Arcilloso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado"
+      ],
+      "tolerable": [
+        "Cálido"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Abundante"
+      ],
+      "tolerable": [
+        "Moderada"
+      ]
+    },
+    "ph_min": 5.0,
+    "ph_max": 6.5,
+    "ph_tolerancia_min": 4.5,
+    "ph_tolerancia_max": 7.0,
+    "sol": {
+      "optimo": [
+        "Media"
+      ],
+      "tolerable": [
+        "Alta",
+        "Baja"
+      ]
+    },
+    "consejos": "Un sombrío regulado ayuda a moderar la temperatura; procura buen drenaje en pendientes."
+  },
+  {
+    "id": "lechuga",
+    "nombre": "Lechuga",
+    "categoria": "Hortaliza",
+    "suelos": {
+      "optimo": [
+        "Franco",
+        "Limoso"
+      ],
+      "tolerable": [
+        "Arenoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado",
+        "Frío"
+      ],
+      "tolerable": [
+        "Cálido"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Abundante"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta",
+        "Media"
+      ],
+      "tolerable": [
+        "Baja"
+      ]
+    },
+    "consejos": "Riega con frecuencia y poca cantidad; el calor excesivo adelanta el espigado y una sombra parcial ayuda en zonas cálidas."
+  },
+  {
+    "id": "zanahoria",
+    "nombre": "Zanahoria",
+    "categoria": "Hortaliza",
+    "suelos": {
+      "optimo": [
+        "Arenoso",
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado",
+        "Frío"
+      ],
+      "tolerable": [
+        "Cálido"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Abundante"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 6.8,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Retira piedras y terrones antes de sembrar y mantén humedad pareja."
+  },
+  {
+    "id": "trigo",
+    "nombre": "Trigo",
+    "categoria": "Cereal",
+    "suelos": {
+      "optimo": [
+        "Franco",
+        "Arcilloso"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Templado",
+        "Frío"
+      ],
+      "tolerable": [
+        "Árido"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Escasa"
+      ]
+    },
+    "ph_min": 6.0,
+    "ph_max": 7.5,
+    "ph_tolerancia_min": 5.5,
+    "ph_tolerancia_max": 8.0,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Prefiere suelos con buena fertilidad y drenaje; el exceso de humedad durante la maduración favorece enfermedades."
+  },
+  {
+    "id": "yuca",
+    "nombre": "Yuca",
+    "categoria": "Tubérculo",
+    "suelos": {
+      "optimo": [
+        "Arenoso",
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Cálido"
+      ],
+      "tolerable": [
+        "Templado"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Moderada"
+      ],
+      "tolerable": [
+        "Escasa"
+      ]
+    },
+    "ph_min": 5.5,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 4.5,
+    "ph_tolerancia_max": 8.0,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Evita suelos con encharcamiento, que pudren la raíz, y siembra en terreno suelto."
+  },
+  {
+    "id": "platano",
+    "nombre": "Plátano",
+    "categoria": "Frutal",
+    "suelos": {
+      "optimo": [
+        "Franco"
+      ],
+      "tolerable": [
+        "Limoso",
+        "Arcilloso"
+      ]
+    },
+    "climas": {
+      "optimo": [
+        "Cálido"
+      ],
+      "tolerable": [
+        "Templado"
+      ]
+    },
+    "agua": {
+      "optimo": [
+        "Abundante"
+      ],
+      "tolerable": [
+        "Moderada"
+      ]
+    },
+    "ph_min": 5.5,
+    "ph_max": 7.0,
+    "ph_tolerancia_min": 4.5,
+    "ph_tolerancia_max": 7.5,
+    "sol": {
+      "optimo": [
+        "Alta"
+      ],
+      "tolerable": [
+        "Media"
+      ]
+    },
+    "consejos": "Requiere suelos profundos con buen drenaje y protección contra vientos fuertes."
+  }
+]

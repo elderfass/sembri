@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sembri · AgroExpert Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css', v='5') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 56 56" aria-hidden="true">
+      <rect width="56" height="56" rx="16" fill="#d8ee93"/>
+      <circle cx="28" cy="28" r="18" fill="none" stroke="#173e2b" stroke-width="2"/>
+      <path d="M28 40V23" stroke="#173e2b" stroke-width="3" stroke-linecap="round"/>
+      <path d="M28 27c0-7 5-11 13-11 0 8-5 12-13 11Z" fill="#31865a"/>
+      <path d="M28 32c0-5-4-8-11-8 0 6 4 9 11 8Z" fill="#173e2b"/>
+    </svg>
+    <div><h1>Sembri</h1><p>Asistente de AgroExpert Store</p></div>
+  </div>
+  <div class="online"><span></span>Sembri está en línea</div>
+</header>
+
+<main>
+  <section class="chat" aria-label="Conversación con Sembri">
+    <div class="chat-head">
+      <div><span class="dot" aria-hidden="true"></span><b>Conversación con Sembri</b></div>
+      <small>Gemini · {{ modelo }}</small>
+    </div>
+    <div id="log" aria-live="polite"></div>
+    <form id="f" autocomplete="off">
+      <input id="q" maxlength="500" placeholder="Pregúntale sobre cultivos, productos o tu negocio..." aria-label="Escribe tu pregunta">
+      <button class="send" id="enviar" type="submit" aria-label="Enviar mensaje">Enviar</button>
+    </form>
+  </section>
+
+</main>
+<script src="{{ url_for('static', filename='app.js', v='5') }}"></script>
+</body>
+</html>
